@@ -1,30 +1,22 @@
-const blogData = {
-  name: "Overreacted",
-  about: "Personal blog by Dan Abramov. I explain with words and code.",
-  image: "https://via.placeholder.com/215",
+export default {
+  name: "Blog Name",
+  image: "some-image-url",
+  about: "About the blog",
   posts: [
     {
       id: 1,
-      title: "The WET Codebase",
-      date: "July 13, 2020",
-      preview: "Come waste your time with me.",
+      title: "Post 1",
+      date: "Some Date",
+      preview: "Preview text",
       minutes: 5,
     },
+    // Add more posts as needed, e.g.:
     {
       id: 2,
-      title: "Goodbye, Clean Code",
-      date: "January 11, 2020",
-      preview: "Let clean code guide you. Then let it go.",
-      minutes: 22,
-    },
-    {
-      id: 3,
-      title: "My Decade in Review",
-      date: "January 1, 2020",
-      preview: "A personal reflection.",
-      minutes: 70,
+      title: "Post 2",
+      date: "Another Date",
+      preview: "Another preview text",
+      minutes: 35,
     },
   ],
 };
-
-export default blogData;
